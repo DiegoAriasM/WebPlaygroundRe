@@ -2,9 +2,7 @@
 {% load static %}
 {% block title %}Iniciar sesión{% endblock %}
 {% block content %}
-  {% if request.user.is_authenticated %}
-    <script>window.location.href = '/accounts/profile/'; </script>
-  {% endif %}
+
 <style>.errorlist{color:red;}</style>
 <main role="main">
   <div class="container">
